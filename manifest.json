@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Alt Text Reader",
+  "version": "1.0",
+  "description": "Reads out the alt text of images on web pages for blind and low-vision users.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Alt Text Reader"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
+
