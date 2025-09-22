@@ -1,6 +1,11 @@
 # Accessify Lite 🔍
   
-*A beginner-friendly AI-powered tool for generating ethical alt text for blind and visually impaired users.*
+
+## Overview
+
+*Accessify Lite is a beginner-friendly Python web application that generates descriptive alternative text (alt text) for images. It’s designed to improve accessibility for blind and visually impaired users by providing meaningful image descriptions that adhere to ethical guidelines, combined with a Chrome extension that reads alt text aloud for enhanced accessibility.
+
+This project serves as a starting point for integrating AI-powered alt text generation while keeping ethical considerations around identity and representation at the core.*
 
 ---
 
@@ -21,23 +26,20 @@ While I didn’t do the programming during the research, the ethical questions w
 
 > 🧠 *“I don’t just want to read about this,  I want to build something that makes a difference.”*
 
-**Accessify Lite** is my first attempt to turn research into real, usable code. It’s a beginner-friendly Python web app that generates alt text descriptions based on images. While it’s still early, the goal is to eventually integrate AI tools that follow **ethical guidelines for describing people**, with care and context, not just automation.
+**Accessify Lite** it’s a beginner-friendly Python web app that generates alt text descriptions based on images and Chrome to read alt text aloud, focusing on inclusive design and ethical considerations.. While it’s still early, the goal is to eventually integrate AI tools that follow **ethical guidelines for describing people**, with care and context, not just automation.
 
 This project isn’t just about practicing Python or Flask. It’s about building inclusive technology that centers people who are often left out of design conversations. It’s the beginning of my journey toward using code as a tool for social good.
-
-
-**Accessify Lite** is my first step in combining what I’ve learned in class with my passion for human-centered tech. It’s a small project with a big goal: making the internet a more inclusive place, one image at a time.
 
 
 ---
 
 ## ⚙️ Features
 
-- 📸 Input image URL
-- ✍️ Generate alt text following ethical guidelines
-- 🌐 Clean web UI built with HTML and Flask
-- 🧠 Future: Use real AI models for image captioning
-- 🔈 Future: Add text-to-speech for blind users
+- 📸 Input image URL and receive a generated alt text description
+- ✍️ Clean and simple web interface built with Flask and HTML
+- 🌐 Modular Python codebase for easy extension and AI integration
+- 🧠 Ethical approach to alt text generation, with plans to incorporate context-aware models
+- 🔈 Future support for text-to-speech and file uploads
 
 ---
 
@@ -64,9 +66,17 @@ This project isn’t just about practicing Python or Flask. It’s about buildin
 
 - Python 3.9+
 - Flask
-- HTML/CSS (vanilla)
+- HTML
 - Future: HuggingFace Transformers, TTS, OpenAI Vision
 
 
+##Project Structure
+
+alt_text_app/
+├── app.py
+├── alt_text_generator.py
+├── templates/
+│   ├── index.html
+│   └── result.html
 
 
