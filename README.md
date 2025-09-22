@@ -4,8 +4,8 @@
 
 ---
 
-![App Demo Placeholder](https://via.placeholder.com/800x400?text=Demo+GIF+Coming+Soon)  
-*Demo coming soon — check back later!*
+![Demo Screenshot](images/images.png)
+*Demo screenshot from the app*
 
 ---
 
@@ -15,7 +15,7 @@ My name is Brenda Iradukunda, and I’m currently a junior at Washington and Lee
 
 In the summer of 2024, I worked on a research project with Professor Rachel Levit Ades, a philosophy professor whose work focuses on accessibility and disability studies. Our project explored the ethical complexities of AI-generated image descriptions for blind and low-vision users, especially when those images include people.
 
-We found that many existing image description tools avoid describing race, gender, or disability status — not because these categories are irrelevant, but because they’re ethically complicated. And yet, omitting them can also be harmful: it can erase identity, reinforce default assumptions, and exclude blind users from fully participating in visual culture.
+We found that many existing image description tools avoid describing race, gender, or disability status, not because these categories are irrelevant, but because they’re ethically complicated. And yet, omitting them can also be harmful: it can erase identity, reinforce default assumptions, and exclude blind users from fully participating in visual culture.
 
 While I didn’t do the programming during the research, the ethical questions we asked stayed with me. I realized:
 
