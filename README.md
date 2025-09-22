@@ -5,7 +5,7 @@
 ---
 
 ![Demo Screenshot](images/images.png)
-*Demo screenshot from the app*
+*Demo screenshot from the unsplash.com*
 
 ---
 
