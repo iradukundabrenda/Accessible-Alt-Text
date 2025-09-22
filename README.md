@@ -72,11 +72,11 @@ This project isn’t just about practicing Python or Flask. It’s about buildin
 
 ##Project Structure
 
-alt_text_app/
-├── app.py
-├── alt_text_generator.py
-├── templates/
-│   ├── index.html
-│   └── result.html
+- alt_text_app/
+- app.py
+- alt_text_generator.py
+- templates/
+- index.html
+- result.html
 
 
