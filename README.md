@@ -19,7 +19,7 @@ We found that many existing image description tools avoid describing race, gende
 
 While I didn’t do the programming during the research, the ethical questions we asked stayed with me. I realized:
 
-> 🧠 *“I don’t just want to read about this — I want to build something that makes a difference.”*
+> 🧠 *“I don’t just want to read about this,  I want to build something that makes a difference.”*
 
 **Accessify Lite** is my first attempt to turn research into real, usable code. It’s a beginner-friendly Python web app that generates alt text descriptions based on images. While it’s still early, the goal is to eventually integrate AI tools that follow **ethical guidelines for describing people**, with care and context, not just automation.
 
