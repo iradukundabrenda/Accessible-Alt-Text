@@ -70,7 +70,7 @@ This project isn’t just about practicing Python or Flask. It’s about buildin
 - Future: HuggingFace Transformers, TTS, OpenAI Vision
 
 
-##Project Structure
+## Project Structure
 
 - alt_text_app/
 - app.py
