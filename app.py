@@ -27,6 +27,15 @@ def generate():
     #  Show result page with image and alt text
     return render_template('result.html', image_url=image_url, alt_text=alt_text)
 
+from flask import request, jsonify
+
+@app.route('/generate-alt', methods=['POST'])
+def generate_alt():
+    data = request.get_json()
+    image_url = data.get('image_url')
+    alt_text = generate_alt_text(image_url)
+    return jsonify({'alt_text': alt_text})
+
 
 if __name__ == '__main__':
     app.run(debug=True)
