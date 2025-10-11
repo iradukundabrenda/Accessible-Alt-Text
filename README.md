@@ -24,11 +24,6 @@ We found that many existing image description tools avoid describing race, gende
 
 While I didn’t do the programming during the research, the ethical questions we asked stayed with me. I realized:
 
-> 🧠 *“I don’t just want to read about this,  I want to build something that makes a difference.”*
-
-**Accessify Lite** it’s a beginner-friendly Python web app that generates alt text descriptions based on images and Chrome to read alt text aloud, focusing on inclusive design and ethical considerations.. While it’s still early, the goal is to eventually integrate AI tools that follow **ethical guidelines for describing people**, with care and context, not just automation.
-
-This project isn’t just about practicing Python or Flask. It’s about building inclusive technology that centers people who are often left out of design conversations. It’s the beginning of my journey toward using code as a tool for social good.
 
 
 ---
@@ -36,7 +31,7 @@ This project isn’t just about practicing Python or Flask. It’s about buildin
 ## ⚙️ Features
 
 - 📸 Input image URL and receive a generated alt text description
-- ✍️ Clean and simple web interface built with Flask and HTML
+- ✍ ️ Clean and simple web interface built with Flask and HTML
 - 🌐 Modular Python codebase for easy extension and AI integration
 - 🧠 Ethical approach to alt text generation, with plans to incorporate context-aware models
 - 🔈 Future support for text-to-speech and file uploads
@@ -48,7 +43,7 @@ This project isn’t just about practicing Python or Flask. It’s about buildin
 - Learning how Flask handles form data and templates
 - Organizing Python files for modularity (hello, `alt_text_generator.py`)
 - Thinking deeply about ethical, *not just technical*, design
-- Writing a README that actually tells a story 🙃
+- Writing a README that actually tells a story 
 
 ---
 
