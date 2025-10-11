@@ -1,9 +1,9 @@
-# Accessify Lite 🔍
+# Accessible Alt-Text 🔍
   
 
 ## Overview
 
-*Accessify Lite is a beginner-friendly Python web application that generates descriptive alternative text (alt text) for images. It’s designed to improve accessibility for blind and visually impaired users by providing meaningful image descriptions that adhere to ethical guidelines, combined with a Chrome extension that reads alt text aloud for enhanced accessibility.
+*Accessible Alt-Text is a beginner-friendly Python web application that generates descriptive alternative text (alt text) for images. It’s designed to improve accessibility for blind and visually impaired users by providing meaningful image descriptions that adhere to ethical guidelines, combined with a Chrome extension that reads alt text aloud for enhanced accessibility.
 
 This project serves as a starting point for integrating AI-powered alt text generation while keeping ethical considerations around identity and representation at the core.*
 
@@ -74,4 +74,10 @@ While I didn’t do the programming during the research, the ethical questions w
 - index.html
 - result.html
 
+## Usage
+
+1. Clone the repo:
+```bash
+git clone https://github.com/iradukundabrenda/Accessory_lite.git
+cd Accessory_lite
 

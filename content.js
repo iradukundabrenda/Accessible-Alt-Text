@@ -1,17 +1,33 @@
-// Get all images on the page
+// Select all images on the page
 const images = document.querySelectorAll('img');
 
-// Loop through each image
+// Loop through each image and add click behavior
 images.forEach((img, index) => {
-  // If the image has alt text
-  if (img.alt) {
-    // Use SpeechSynthesis API to read the alt text
-    const utterance = new SpeechSynthesisUtterance(`Image ${index + 1} description: ${img.alt}`);
-    speechSynthesis.speak(utterance);
-  } else {
-    // If no alt text, read fallback message
-    const utterance = new SpeechSynthesisUtterance(`Image ${index + 1} does not have a description`);
-    speechSynthesis.speak(utterance);
-  }
+  img.addEventListener('click', async () => {
+    const imageUrl = img.src;
+
+    try {
+      // Send image URL to your Flask backend
+      const response = await fetch('http://127.0.0.1:5000/generate-alt', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ image_url: imageUrl })
+      });
+
+      const data = await response.json();
+
+      // Speak and display generated alt text
+      if (data.alt_text) {
+        alert(`Description for image ${index + 1}: ${data.alt_text}`);
+        const utterance = new SpeechSynthesisUtterance(data.alt_text);
+        window.speechSynthesis.speak(utterance);
+      } else {
+        alert(`Image ${index + 1}: No description generated.`);
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('⚠️ Could not connect to the Flask app. Make sure it is running.');
+    }
+  });
 });
 

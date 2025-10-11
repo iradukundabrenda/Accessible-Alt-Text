@@ -9,7 +9,7 @@ class AppTestCase(unittest.TestCase):
     def test_homepage(self):
         response = self.client.get('/')
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b'Accessify Lite', response.data)  # or some expected text in homepage
+        self.assertIn(b'Alt Text Generator', response.data)  # or some expected text in homepage
 
 if __name__ == '__main__':
     unittest.main()
