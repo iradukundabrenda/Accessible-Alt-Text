@@ -16,13 +16,13 @@ This project serves as a starting point for integrating AI-powered alt text gene
 
 ## 💖 Personal Story & Motivation
 
-My name is Brenda Iradukunda, and I’m currently a junior at Washington and Lee University, majoring in Computer Science and Economics.
+My name is Brenda Iradukunda, and I’m currently a senior at Washington and Lee University, majoring in Computer Science and Economics.
 
 In the summer of 2024, I worked on a research project with Professor Rachel Levit Ades, a philosophy professor whose work focuses on accessibility and disability studies. Our project explored the ethical complexities of AI-generated image descriptions for blind and low-vision users, especially when those images include people.
 
 We found that many existing image description tools avoid describing race, gender, or disability status, not because these categories are irrelevant, but because they’re ethically complicated. And yet, omitting them can also be harmful: it can erase identity, reinforce default assumptions, and exclude blind users from fully participating in visual culture.
 
-While I didn’t do the programming during the research, the ethical questions we asked stayed with me. I realized:
+While I didn’t do the programming during the research, the ethical questions we asked stayed with me. A year later, I started building this tool on my own to explore them in code.
 
 
 
@@ -78,6 +78,11 @@ While I didn’t do the programming during the research, the ethical questions w
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/iradukundabrenda/Accessory_lite.git
-cd Accessory_lite
+git clone https://github.com/iradukundabrenda/Accessible-Alt-Text.git
+cd Accessible-Alt-Text
+pip install -r requirements.txt
+python app.py
+```
+
+2. Open http://127.0.0.1:5000 in your browser, or load the extension in Chrome (chrome://extensions → Load unpacked) and click any image to hear its description.
 
