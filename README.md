@@ -22,7 +22,7 @@ In the summer of 2024, I worked on a research project with Professor Rachel Levi
 
 We found that many existing image description tools avoid describing race, gender, or disability status, not because these categories are irrelevant, but because they’re ethically complicated. And yet, omitting them can also be harmful: it can erase identity, reinforce default assumptions, and exclude blind users from fully participating in visual culture.
 
-While I didn’t do the programming during the research, the ethical questions we asked stayed with me. A year later, I started building this tool on my own to explore them in code.
+While I didn’t do the programming during the research, the ethical questions we asked stayed with me. After the program, I began experimenting with this tool on my own, and in 2025 I started building it in earnest.
 
 
 
